@@ -42,6 +42,25 @@
             height: 150px;
         }
     }
+
+    .about-info {
+        grid-template-areas:
+            'bioimage'
+            'bio'
+            'edu1'
+            'edu2'
+            'edu3'
+            'skill';
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .items {
+        margin: 0;
+    }
 }
 
 // smartphones
